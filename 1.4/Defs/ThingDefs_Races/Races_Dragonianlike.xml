@@ -13,7 +13,7 @@
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
 					<headTypes>
-						<li>Average_Normal</li>
+						<li>Female_AverageNormal</li>
 					</headTypes>
 					<bodyTypes>
 						<li>Female</li>
@@ -68,15 +68,13 @@
 					</li>
 				</forcedRaceTraitEntries>
 			</generalSettings>
-			<graphicPaths>
-				<li>
-					<body>Things/Dragonian/Bodies/</body>
-					<head>Things/Dragonian/Heads/</head>
-					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
-				</li>
-			</graphicPaths>
-
 			<!-- For 1.4 ======================== -->
+
+			<graphicPaths>
+				<body>Things/Dragonian/Bodies/</body>
+				<head>Things/Dragonian/Heads/</head>
+				<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+			</graphicPaths>
 			<styleSettings>
 				<li>
 					<key>HairDef</key>
@@ -101,6 +99,13 @@
 				</li>
 			</styleSettings>
 			<!--
+			<graphicPaths>
+				<li>
+					<body>Things/Dragonian/Bodies/</body>
+					<head>Things/Dragonian/Heads/</head>
+					<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+				</li>
+			</graphicPaths>
 			<hairSettings>
 				<hasHair>true</hasHair>
 				<getsGreyAt>750</getsGreyAt>
@@ -415,7 +420,7 @@
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
 					<headTypes>
-						<li>Male_Average</li>
+						<li>Male_AverageNormal</li>
 					</headTypes>
 					<bodyTypes>
 						<li>Male</li>
@@ -473,6 +478,36 @@
 
 				</chemicalSettings>
 			</generalSettings>
+			<!-- For 1.4 ======================================================================== -->
+			<graphicPaths>
+				<body>Things/Dragonian/Bodies/</body>
+				<head>Things/Dragonian/Heads/</head>
+				<skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Thin</skeleton>
+			</graphicPaths>
+			<styleSettings>
+				<li>
+					<key>HairDef</key>
+					<value>
+						<hasStyle>true</hasStyle>
+						<styleTagsOverride>
+							<li>DR_Hair_Male</li>
+						</styleTagsOverride>
+					</value>
+				</li>
+				<li>
+					<key>TattooDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+				<li>
+					<key>BeardDef</key>
+					<value>
+						<hasStyle>false</hasStyle>
+					</value>
+				</li>
+			</styleSettings>
+			<!--
 			<graphicPaths>
 				<li>
 					<body>Things/Dragonian/Bodies/</body>
@@ -485,8 +520,10 @@
 				<getsGreyAt>750</getsGreyAt>
 				<styleTags>
 					<li>DR_Hair_Male</li>
-				</styl>
+				</styleTags>
 			</hairSettings>
+			-->
+			<!--=========================================================================-->
 			<relationSettings>
 			</relationSettings>
 			<raceRestriction>
