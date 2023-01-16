@@ -1,5 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!--
+	<PawnKindDef>
+		<defName>Dragonian</defName>
+		<label>wild dragonian</label>
+		<labelPlural>wild dragonian</labelPlural>
+		<labelFemale>wild dragonian</labelFemale>
+		<labelFemalePlural>wild dragonian</labelFemalePlural>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<combatPower>60</combatPower>
+		<itemQuality>Poor</itemQuality>
+		<race>Dragonian</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>DragonianStory</li>
+					<li>DragonianSlave</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+		<initialResistanceRange>8~14</initialResistanceRange>
+		<initialWillRange>3~7</initialWillRange>
+
+		<apparelMoney>
+			<min>1200</min>
+			<max>1200</max>
+		</apparelMoney>
+		<apparelTags>
+			<li>DR_Basic</li>
+		</apparelTags>
+	</PawnKindDef>
+-->
 
 	<PawnKindDef>
 		<defName>Dragonian_Slave_Male</defName>
@@ -112,7 +145,6 @@
 			<li>DR_Basic</li>
 		</apparelTags>
 	</PawnKindDef>
-
 	<PawnKindDef>
 		<defName>Dragonian_Male</defName>
 		<label>wild dragonian</label>
