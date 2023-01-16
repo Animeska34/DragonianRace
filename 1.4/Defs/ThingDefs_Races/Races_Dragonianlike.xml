@@ -69,7 +69,6 @@
 				</forcedRaceTraitEntries>
 			</generalSettings>
 			<!-- For 1.4 ======================== -->
-
 			<graphicPaths>
 				<body>Things/Dragonian/Bodies/</body>
 				<head>Things/Dragonian/Heads/</head>
@@ -147,6 +146,20 @@
 				<weaponList>
 					<li>DR_BattleHammer</li>
 				</weaponList>
+				<!-- 1.4 ===========================================================-->
+				<blackEndoCategories>
+					<li>BodyType</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Hands</li>
+					<li>Head</li>
+					<li>Headbone</li>
+				</blackEndoCategories>
+				<blackGeneTags>
+					<li>Furskin</li>
+				</blackGeneTags>
+				<!-- ===========================================================-->
 			</raceRestriction>
 
 			<thoughtSettings>
@@ -541,6 +554,20 @@
 				<weaponList>
 					<li>DR_BattleHammer</li>
 				</weaponList>
+				<!-- 1.4 ===========================================================-->
+				<blackEndoCategories>
+					<li>BodyType</li>
+					<li>Ears</li>
+					<li>Nose</li>
+					<li>Jaw</li>
+					<li>Hands</li>
+					<li>Head</li>
+					<li>Headbone</li>
+				</blackEndoCategories>
+				<blackGeneTags>
+					<li>Furskin</li>
+				</blackGeneTags>
+				<!-- ===========================================================-->
 			</raceRestriction>
 			<thoughtSettings>
 				<cannotReceiveThoughts>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<AlienRace.BackstoryDef Name="Dragonian_Base" Abstract="True">
+	<AlienRace.AlienBackstoryDef Name="Dragonian_Base" Abstract="True">
 		<forcedHediffs>
 			<li>Dragonian_AutoRecovery</li>
-		</forcedHediffs>    
-	</AlienRace.BackstoryDef>
+		</forcedHediffs>
+	</AlienRace.AlienBackstoryDef>
 
 
-	<AlienRace.BackstoryDef ParentName="Dragonian_Base"	Name="BaseDragonianBackStory" Abstract="True">
+	<AlienRace.AlienBackstoryDef ParentName="Dragonian_Base" Name="BaseDragonianBackStory" Abstract="True">
 		<bodyTypeMale>Male</bodyTypeMale>
 		<bodyTypeFemale>Female</bodyTypeFemale>
-		<disallowedTraits>
+		<disallowedTraitsChance>
 			<li>
 				<defName>Beauty</defName>
 				<degree>-1</degree>
@@ -86,39 +86,39 @@
 				<defName>DislikesWomen</defName>
 				<chance>100</chance>
 			</li>
-		</disallowedTraits>
-	</AlienRace.BackstoryDef>
+		</disallowedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="BaseDragonianBackStory">
+	<AlienRace.AlienBackstoryDef ParentName="BaseDragonianBackStory">
 		<defName>Dragonian_WildChild</defName>
 		<title>Dragonian wild born</title>
 		<titleShort>wild born</titleShort>
-		<baseDescription>[PAWN_nameDef] is wild dragonian.</baseDescription>
+		<baseDesc>[PAWN_nameDef] is wild dragonian.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-8</amount>
+				<key>Shooting</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>-1</amount>
+				<key>Mining</key>
+				<value>-1</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>-1</amount>
+				<key>Plants</key>
+				<value>-1</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-8</amount>
+				<key>Construction</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 		</skillGains>
 		<workDisables>
@@ -131,41 +131,41 @@
 		<spawnCategories>
 			<li>DragonianStory</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="BaseDragonianBackStory">
+	<AlienRace.AlienBackstoryDef ParentName="BaseDragonianBackStory">
 		<defName>Dragonian_Wild</defName>
 		<title>Wild Dragonian</title>
 		<titleShort>Wild Dragonian</titleShort>
-		<baseDescription>[PAWN_nameDef] is wild dragonian</baseDescription>
+		<baseDesc>[PAWN_nameDef] is wild dragonian</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-8</amount>
+				<key>Shooting</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-8</amount>
+				<key>Construction</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Animals</defName>
-				<amount>3</amount>
+				<key>Animals</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>-1</amount>
+				<key>Mining</key>
+				<value>-1</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>-1</amount>
+				<key>Plants</key>
+				<value>-1</value>
 			</li>
 		</skillGains>
-		<workDisables>		
+		<workDisables>
 			<li>Caring</li>
 			<li>Intellectual</li>
 			<li>Artistic</li>
@@ -176,41 +176,41 @@
 			<li>DragonianStory</li>
 			<li>DragonianWild</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="BaseDragonianBackStory">
+	<AlienRace.AlienBackstoryDef ParentName="BaseDragonianBackStory">
 		<defName>Dragonian_SlaveChild</defName>
 		<title>Abandoned Dragonian</title>
 		<titleShort>abandoned</titleShort>
-		<baseDescription>[PAWN_nameDef] is a dragonian raised by human hands.</baseDescription>
+		<baseDesc>[PAWN_nameDef] is a dragonian raised by human hands.</baseDesc>
 		<slot>Childhood</slot>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-8</amount>
+				<key>Shooting</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-8</amount>
+				<key>Construction</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>-1</amount>
+				<key>Mining</key>
+				<value>-1</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>-1</amount>
+				<key>Plants</key>
+				<value>-1</value>
 			</li>
 		</skillGains>
-		<workDisables>			
+		<workDisables>
 			<li>Caring</li>
 			<li>Intellectual</li>
 			<li>Artistic</li>
@@ -220,41 +220,41 @@
 		<spawnCategories>
 			<li>DragonianStory</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
+	</AlienRace.AlienBackstoryDef>
 
-	<AlienRace.BackstoryDef ParentName="BaseDragonianBackStory">
+	<AlienRace.AlienBackstoryDef ParentName="BaseDragonianBackStory">
 		<defName>Dragonian_Slave</defName>
 		<title>Abandoned Dragonian</title>
 		<titleShort>abandoned</titleShort>
-		<baseDescription>[PAWN_nameDef] is a dragonian raised by human hands.</baseDescription>
+		<baseDesc>[PAWN_nameDef] is a dragonian raised by human hands.</baseDesc>
 		<slot>Adulthood</slot>
 		<skillGains>
 			<li>
-				<defName>Shooting</defName>
-				<amount>-8</amount>
+				<key>Shooting</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Melee</defName>
-				<amount>4</amount>
+				<key>Melee</key>
+				<value>4</value>
 			</li>
 			<li>
-				<defName>Construction</defName>
-				<amount>-8</amount>
+				<key>Construction</key>
+				<value>-8</value>
 			</li>
 			<li>
-				<defName>Social</defName>
-				<amount>3</amount>
+				<key>Social</key>
+				<value>3</value>
 			</li>
 			<li>
-				<defName>Mining</defName>
-				<amount>-1</amount>
+				<key>Mining</key>
+				<value>-1</value>
 			</li>
 			<li>
-				<defName>Plants</defName>
-				<amount>-1</amount>
+				<key>Plants</key>
+				<value>-1</value>
 			</li>
 		</skillGains>
-		<workDisables>				
+		<workDisables>
 			<li>Caring</li>
 			<li>Intellectual</li>
 			<li>Artistic</li>
@@ -265,7 +265,7 @@
 			<li>DragonianStory</li>
 			<li>DragonianSlave</li>
 		</spawnCategories>
-	</AlienRace.BackstoryDef>
-	
-	
+	</AlienRace.AlienBackstoryDef>
+
+
 </Defs>
